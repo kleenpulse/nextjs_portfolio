@@ -19,8 +19,8 @@ const MobileNav = () => {
 	}, [path]);
 
 	return (
-		<div className="md:hidden fixed bottom-0 left-0 w-full">
-			<div className="flex w-full justify-between py-4 px-2 dark:bg-black/20 backdrop-blur-xl">
+		<div className="md:hidden fixed bottom-0 left-0 w-full z-50">
+			<div className="flex w-full justify-between py-4 px-2 bg-white/40 dark:bg-black/20 backdrop-blur-xl">
 				{MOBILE_LINKS.map((item) => (
 					<button
 						type="button"
