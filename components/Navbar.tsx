@@ -16,7 +16,7 @@ import Image from "next/image";
 
 const Navbar = () => {
 	return (
-		<nav className="app__navbar w-full flex justify-between items-center px-2 py-4  relative z-10 dark:text-gray-300">
+		<nav className="app__navbar w-full h-[56px] flex justify-between items-center px-2 py-4  fixed top-0 left-0 z-10 dark:text-gray-300 backdrop-blur-sm dark:bg-black/5">
 			<Logo />
 			<ul className="app__navbar-links md:flex gap-x-8 text-xl font-medium hidden">
 				{NAV_LINKS.map((item) => (

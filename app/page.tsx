@@ -22,9 +22,9 @@ export default function Home() {
 				}}
 			/>
 
-			<main className="min-h-screen w-full dark:text-white max-w-[1440px] mx-auto">
+			<section className="min-h-screen w-full dark:text-white max-w-[1440px] mx-auto">
 				<Header />
-			</main>
+			</section>
 		</>
 	);
 }

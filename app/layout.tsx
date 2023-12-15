@@ -35,9 +35,13 @@ export default function RootLayout({
 	return (
 		<ThemeProvider>
 			<html lang="en">
-				<body className={`relative ${dmSans.variable} ${rajdhani.className}`}>
+				<body
+					className={`relative ${dmSans.variable} ${rajdhani.className} hide-scroll`}
+				>
 					<Navbar />
-					{children}
+					<main className="pt-7 md:pt-12 min-h-screen over w-full absolute overflow-y-visible flex flex-col custom-scroll">
+						{children}
+					</main>
 				</body>
 			</html>
 		</ThemeProvider>
